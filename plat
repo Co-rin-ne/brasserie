@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasserie La Maison - Plats</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nos Plats</h1>
+            <nav>
+                <a href="menu.html">Accueil</a> |
+                <a href="bieres.html">Bières</a> |
+                <a href="entrees.html">Entrées</a> |
+                <a href="dessert.html">Desserts</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Plats Principaux</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+
+                        <img src="burger.jpg.webp" alt="Plats">
+                        <h3>Burger Maison</h3>
+                        <p>Un burger gourmet avec des ingrédients frais et locaux.</p>
+                        <p class="price">12€</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Steak Frites</h3>
+                        <p>Un steak tendre accompagné de frites croustillantes.</p>
+                        <p class="price">15€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Brasserie La Maison</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background-color: #d2b48c; /* marron clair / beige */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête (h1) centré en haut */
+header {
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+}
+
+header h1 {
+    color: #5a3e1b; /* brun foncé */
+}
+
+/* Conteneur du formulaire, centré verticalement */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* laisse la place pour le header */
+}
+
+/* Bloc formulaire stylé */
+.Calcul {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Titres dans le formulaire */
+h2 {
+    color: #5a3e1b;
+}
+
+/* Labels en jaune cuivré */
+label {
+    color: #b87333; 
+    font-weight: bold;
+}
+
+/* Champs de formulaire */
+input, select {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+/* Bouton stylisé */
+button {
+    background-color: #b87333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #a35c1d;
+}

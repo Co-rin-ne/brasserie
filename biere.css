@@ -1,0 +1,86 @@
+/* 🔥 Style général */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 🔥 En-tête */
+h1 {
+    font-size: 2.8em;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #f39c12;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* 🔥 Conteneur des bières (grille 3x2) */
+.biere-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 20px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* 🔥 Carte de bière */
+.biere {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(255, 165, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.biere:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 165, 0, 0.5);
+}
+
+/* 🔥 Image des bières */
+.biere img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #f39c12;
+}
+
+/* 🔥 Informations sur la bière */
+.biere h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #f39c12;
+    text-transform: uppercase;
+}
+
+.biere p {
+    font-size: 1em;
+    padding: 10px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+/* 🔥 Prix */
+.biere p strong {
+    color: #f39c12;
+    font-size: 1.2em;
+}
+
+/* 🔥 Responsive (Mobile) */
+@media screen and (max-width: 768px) {
+    .biere-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur petits écrans */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .biere-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 colonne sur téléphone */
+    }
+}

@@ -1,0 +1,31 @@
+/* Style du menu */
+.menu-nav {
+    text-align: center;
+    margin-top: 10px; /* Espacement sous le titre */
+}
+
+.menu-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centre les éléments */
+    gap: 15px; /* Espacement entre les liens */
+}
+
+.menu-nav ul li {
+    display: inline-block;
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte */
+    background-color: #8B0000; /* Couleur de fond */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu-nav ul li a:hover {
+    background-color: #B22222; /* Changement de couleur au survol */
+}
