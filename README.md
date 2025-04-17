@@ -39,7 +39,7 @@
     <p> Pour ce projet, j'ai réalisé :
       <ul>
         <li>Le logo BTS; </li>
-        
+          ![Logo de la brasserie](images/logo.png)
         <li>La page d'acceuil;</li>
           Sur celle-ci vous trouverez les informations concernant la brasserie + la bannière de contact
         <li>La page de connexion;</li>
